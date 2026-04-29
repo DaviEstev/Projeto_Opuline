@@ -2,7 +2,7 @@
 
 ## 🧠 Sobre o Projeto
 
-O **Projeto Opuline** é um dashboard interativo desenvolvido com foco em **análise de dados comerciais**, permitindo acompanhar indicadores estratégicos como faturamento, desempenho de vendas, metas e distribuição geográfica.
+O **Projeto Opuline** é um dashboard interativo desenvolvido a partir da base de dados do curso **Power BI: visualizando e analisando dados** da plataforma **Alura** com foco em **análise de dados comerciais**, permitindo acompanhar indicadores estratégicos como faturamento, desempenho de vendas, metas e distribuição geográfica.
 
 O objetivo principal é transformar dados brutos em **insights visuais claros e acionáveis**, auxiliando na tomada de decisão orientada por dados.
 
@@ -21,8 +21,6 @@ O objetivo principal é transformar dados brutos em **insights visuais claros e 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Power BI** → criação do dashboard e visualizações
-* **DAX (Data Analysis Expressions)** → cálculos e métricas
-* **Power Query** → tratamento e transformação de dados
 * **Excel / CSV** → fonte de dados
 
 ---
@@ -76,7 +74,7 @@ O objetivo principal é transformar dados brutos em **insights visuais claros e 
 
 ## 📸 Preview do Dashboard
 
-*(adicione aqui uma imagem do seu dashboard para valorizar o projeto)*
+![Preview do Dashboard](./previewOpuline.png)
 
 ---
 
@@ -93,13 +91,13 @@ O objetivo principal é transformar dados brutos em **insights visuais claros e 
 
 **Davi Estevam**
 🎓 Estudante de Ciência de Dados e IA
-💼 Experiência com Power BI, análise de dados e dashboards
+💼 Aprendizado em Power BI, análise de dados e dashboards
 
 ---
 
 ## 📬 Contato
 
-* LinkedIn: *(adicione seu link aqui)*
+* LinkedIn: *(https://www.linkedin.com/in/daviestv/)*
 * GitHub: https://github.com/DaviEstev
 
 ---
