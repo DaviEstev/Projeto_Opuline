@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "650a25659698473d92c6",
+  "position": {
+    "x": 25.196850393700789,
+    "y": 16.125984251968504,
+    "z": 1500,
+    "height": 40.314960629921259,
+    "width": 209.63779527559055,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Botoes de Navegação",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "723ccb772adb99531447"
+}

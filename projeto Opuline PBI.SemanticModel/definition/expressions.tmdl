@@ -1,0 +1,7 @@
+expression PastaBase = "C:\Users\DSIN1U\OneDrive - Scania CV\Projeto Opuline Power BI\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 9f6a6d23-92c6-4e29-afab-c68b62836725
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+

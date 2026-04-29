@@ -1,0 +1,49 @@
+table 'Comparacao tegorias'
+	lineageTag: 77146baa-d8b3-47e0-bcd2-d442b9f7e449
+
+	column 'Comparacao tegorias'
+		lineageTag: 49ca3967-a2f7-430c-8f0b-84f49306f331
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Comparacao tegorias Pedido'
+
+		relatedColumnDetails
+			groupByColumn: 'Comparacao tegorias Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Comparacao tegorias Campos'
+		isHidden
+		lineageTag: e68104e0-170e-4175-ae33-c80102b1d35c
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Comparacao tegorias Pedido'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Comparacao tegorias Pedido'
+		isHidden
+		formatString: 0
+		lineageTag: 19699a32-a8d9-4fba-b4fb-a4402115f7f0
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Comparacao tegorias' = calculated
+		mode: import
+		source =
+				{
+				    ("Origem", NAMEOF('dMarcas'[Origem]), 0),
+				    ("Marca", NAMEOF('dMarcas'[Marca]), 1),
+				    ("Categoria", NAMEOF('dMetaMensal'[Categoria]), 2)
+				}
+
+	annotation PBI_Id = fec205e9853f437dae0e91071a697b99
+

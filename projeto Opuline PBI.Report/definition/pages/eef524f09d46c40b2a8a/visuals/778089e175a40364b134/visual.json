@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "778089e175a40364b134",
+  "position": {
+    "x": 51.484275475708749,
+    "y": 101.48444350470457,
+    "z": 3000,
+    "height": 88.877805486284288,
+    "width": 653.65968631729049,
+    "tabOrder": 9000
+  },
+  "visualGroup": {
+    "displayName": "Cartoes & KPI's ",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "lockAspect": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "f81e05c1437459bb2602",
+  "position": {
+    "x": 14.364089775561096,
+    "y": 16.148407037269664,
+    "z": 1500,
+    "height": 40.399002493765586,
+    "width": 210.07481296758104,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Botoes de Navegação",
+    "groupMode": "ScaleMode",
+    "objects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "parentGroupName": "b7b8daee108ca35091e6"
+}

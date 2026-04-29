@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "c4ad545effbb992ec718",
+  "position": {
+    "x": 818.301818966137,
+    "y": 92.762959235027679,
+    "z": 1000,
+    "height": 127.54906894816305,
+    "width": 301.47961751383997,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Comparacao tegorias"
+                    }
+                  },
+                  "Property": "Comparacao tegorias"
+                }
+              },
+              "queryRef": "Comparacao tegorias.Comparacao tegorias",
+              "nativeQueryRef": "Comparacao tegorias",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Basic'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "syncGroup": {
+      "groupName": "Comparacao tegorias",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
